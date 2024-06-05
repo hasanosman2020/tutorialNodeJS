@@ -1,8 +1,12 @@
-const amount = 12
-if(amount < 10){
-console.log('small number')
-} else {
-console.log(`large number`)
-}
+// Modules
 
-console.log(`This is my first nodejs app.`)
+const john = 'john';
+const peter = 'peter';
+
+const sayHi = (name) => {
+    console.log(`Hello there ${name}`);
+};
+
+sayHi('susan');
+sayHi('john');
+sayHi('peter')
